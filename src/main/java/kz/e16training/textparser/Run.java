@@ -7,7 +7,7 @@ package kz.e16training.textparser;
  */
 public class Run {
     public static void main(String[] args) {
-        Parser parser = new Parser("effective java.txt", "UTF8");
+        Parser parser = new Parser("stl.txt", "UTF8");
         parser.start();
     }
 }
